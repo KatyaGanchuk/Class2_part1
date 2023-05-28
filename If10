@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main() {
+ int a, b;
+    cout<<"Imput a";
+    cin>>a;
+    cout<<"Imput b";
+    cin>>b;
+    if (a!=b)
+    {
+        if(a>b)
+            b=a;
+        else
+            a=b;
+    }
+    else
+    {
+        a=0;
+        b=0;
+    }
+    cout<<"a="<<a<<endl;
+    cout<<"b="<<b<<endl;
+   
+}
